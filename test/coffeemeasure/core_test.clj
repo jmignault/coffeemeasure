@@ -1,3 +1,5 @@
+;; Simple tests for coffeemeasure project.
+
 (ns coffeemeasure.core-test
   (:require [clojure.test :refer :all]
             [coffeemeasure.core :refer :all]))
