@@ -1,3 +1,7 @@
+;; A small app to calculate how many grams of coffee are needed to
+;; make a given amount of coffee in ounces. Also to figure out
+;; mechanics of clojure projects.
+
 (ns coffeemeasure.core)
 
 ;; Coffee to water ratio
