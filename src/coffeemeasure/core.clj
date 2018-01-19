@@ -14,6 +14,6 @@
   (* x 0.035274))
 
 (defn coffeemeasure
-  "How many grams of coffee makes x ounces"
+  "How many grams of coffee are needed to  make x ounces"
   [x]
   (java.lang.Math/ceil (/  (oz2g x) RATIO)))
