@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/coffeemeasure.svg)](https://clojars.org/coffeemeasure)
+
 # coffeemeasure
 
 A Clojure application that calulates how many grams of coffee are needed to produce a given amount of made coffee in ounces.
