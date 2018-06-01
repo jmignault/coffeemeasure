@@ -14,4 +14,4 @@
 
 (deftest coffemeasure-test
   (testing "Test coffeemeasure"
-    (is (= (coffeemeasure 16) 27.0))))
+    (is (= (coffeemeasure 16) 27))))
