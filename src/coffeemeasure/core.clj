@@ -20,4 +20,7 @@
 (defn coffeemeasure
   "Calculate the number of grams of coffee needed to make oz ounces"
   [oz]
-  (java.lang.Math/ceil (/  (oz2g oz) RATIO)))
+  (int (java.lang.Math/ceil (/  (oz2g oz) RATIO))))
+
+(defn -main []
+  (println (coffeemeasure 16)))
