@@ -5,12 +5,12 @@
 (ns coffeemeasure.core)
 
 ;; Coffee to water ratio
-(def RATIO 17.1)
+(def RATIO 16.1)
 
 (defn oz2g
   "Convert x ounces to grams"
   [x]
-  (* x 28.3495))
+  (int (java.lang.Math/ceil (* x 28.3495))))
 
 (defn g2oz
   "Convert x grams to ounces"
@@ -18,9 +18,9 @@
   (* x 0.035274))
 
 (defn coffeemeasure
-  "Calculate the number of grams of coffee needed to make oz ounces"
-  [oz]
-  (int (java.lang.Math/ceil (/  (oz2g oz) RATIO))))
+  "Calculate the number of grams of coffee for g grams of water"
+  [g]
+  (int (java.lang.Math/ceil (/ g RATIO))))
 
 (defn -main []
-  (println (coffeemeasure 16)))
+  (println (coffeemeasure 800)))
