@@ -8,12 +8,12 @@
 (def RATIO 16.1)
 
 (defn oz2g
-  "Convert x ounces to grams"
+  "Convert oz ounces to grams"
   [oz]
   (int (java.lang.Math/ceil (* oz 28.3495))))
 
 (defn g2oz
-  "Convert x grams to ounces"
+  "Convert g grams to ounces"
   [g]
   (* g 0.035274))
 
