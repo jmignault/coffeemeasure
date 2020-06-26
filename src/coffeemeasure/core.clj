@@ -9,13 +9,13 @@
 
 (defn oz2g
   "Convert x ounces to grams"
-  [x]
-  (int (java.lang.Math/ceil (* x 28.3495))))
+  [oz]
+  (int (java.lang.Math/ceil (* oz 28.3495))))
 
 (defn g2oz
   "Convert x grams to ounces"
-  [x]
-  (* x 0.035274))
+  [g]
+  (* g 0.035274))
 
 (defn coffeemeasure
   "Calculate the number of grams of coffee for g grams of water"
