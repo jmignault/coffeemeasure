@@ -23,4 +23,5 @@
   (int (java.lang.Math/ceil (/ g RATIO))))
 
 (defn -main []
-  (println (coffeemeasure 800)))
+  (println (coffeemeasure 800))) ;; 6-cup Chemex to bead
+                                        ; 
