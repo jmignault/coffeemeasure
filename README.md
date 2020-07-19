@@ -2,13 +2,13 @@
 
 # coffeemeasure
 
-A Clojure application that calulates how many grams of coffee are needed to produce a given amount of made coffee in ounces.
+A Clojure application that calulates how many grams of coffee are needed to produce a given amount of made coffee in mL.
 
 ## Usage
 
 (coffeemeasure *integer*)
 
-Where *integer* is desired ounces of made coffee
+Where *integer* is desired mL of made coffee
 
 ## License
 
