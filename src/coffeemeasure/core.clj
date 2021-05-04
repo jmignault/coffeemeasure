@@ -22,12 +22,12 @@
   [g]
   (int (java.lang.Math/ceil (/ g RATIO))))
 
-(defn coffeeline
+(defn coffeeprint
   "Print how many grams of ground coffee you need for n ounces of water."
   [n]
   (def amt (oz2g n))
   (str amt "g of made coffee requires " (coffeemeasure amt) "g of ground coffee."))
 
 (defn -main []
-  (println (coffeeline 28))) ;; 6-cup Chemex to bead
+  (println (coffeeprint 28))) ;; 6-cup Chemex to bead
                                         ; 
