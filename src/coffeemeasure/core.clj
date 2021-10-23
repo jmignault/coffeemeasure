@@ -28,6 +28,11 @@
   (def amt (oz2g n))
   (str amt "g (" n " oz) of made coffee requires " (coffeemeasure amt) "g of ground coffee."))
 
+(defn coffeeprintg
+  "Print how many grams of ground coffee you need for g grams of water."
+  [g]
+  (str g "g of made coffee requires " (coffeemeasure amt) "g of ground coffee."))
+
 (defn -main []
   (println (coffeeprint 28))) ;; 6-cup Chemex to bead
                                         ; 

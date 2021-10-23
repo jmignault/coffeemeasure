@@ -19,3 +19,7 @@
 (deftest coffeeprint-test
   (testing "Test coffeeprint"
     (is (= (coffeeprint 16) "454g (16 oz) of made coffee requires 29g of ground coffee."))))
+
+(deftest coffeeprintg-test
+  (testing "Test coffeeprintg"
+    (is (= (coffeeprintg 454) "454g of made coffee requires 29g of ground coffee."))))
